@@ -1,0 +1,40 @@
+list=["motor","motor listrik","viar","60"]
+print (list)
+
+list.append("hijau")
+list.append("2")
+list.append("2.500.000")
+
+print (list)
+
+list.remove("motor listrik")
+print (list)
+
+#soal3
+Luas=input("""menghitung luas
+================
+1.luas persegi
+2.luas lingkaran
+3.luas segitiga""")
+match Luas:
+    case 1:
+        bilangan1 = int(input("bilangan 1 = "))
+        bilangan2 = int(input("bilangan 2 = "))
+        print("hasilnya adalah", bilangan1 + bilangan2)
+    case "2":
+        bilangan1 = int(input("bilangan 1 = "))
+        bilangan2 = int(input("bilangan 2 = "))
+        print("hasilnya adalah", bilangan1 - bilangan2)
+#     case 2:
+#         print ("kamu memilih 2 untuk menghitung luas lingkaran")
+#         jari2 = float(input ("masukan jari2 ?"))
+#         luasL = 3.14 * jari2 * jari2
+#         print ("luas lingkaran yang jari2nya ", jari2, " adalah ",int(luasL))
+#     case 3:
+#         print ("kamu memilih 3 untuk menghitung luas segitiga")
+#         alas = int(input ("masukan alas ?"))
+#         tinggi = int(input ("masukan tinggi ?"))
+#         luasS = 0.5 * alas * tinggi
+#         print ("luas segitiga yang alasnya ", alas, " dan tingginya",tinggi , " adalah ",int(luasS))
+#     case _:
+#         print("salah memilih pilihan")
